@@ -13,19 +13,19 @@ angular.module('myApp',[])
             "category_name":"Countertop",
             "item_list":[
                 {
-                    "img_url":"images/counter_top/cc1.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/counter_top/cc1.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/counter_top/cc2.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/counter_top/cc2.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/counter_top/cc3.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/counter_top/cc3.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/counter_top/cc4.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/counter_top/cc4.png",
                     "item_name":"test test"
                 }
             ]
@@ -34,19 +34,19 @@ angular.module('myApp',[])
             "category_name":"Backsplash",
             "item_list":[
                 {
-                    "img_url":"images/back_splash/b1.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/back_splash/b1.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/back_splash/b2.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/back_splash/b2.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/back_splash/b3.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/back_splash/b3.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/back_splash/b4.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/back_splash/b4.png",
                     "item_name":"test test"
                 }
             ]
@@ -55,19 +55,19 @@ angular.module('myApp',[])
             "category_name":"Cabinet Color",
             "item_list":[
                 {
-                    "img_url":"images/cabinet_color/c1.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/cabinet_color/c1.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/cabinet_color/c2.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/cabinet_color/c2.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/cabinet_color/c3.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/cabinet_color/c3.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/cabinet_color/c4.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/cabinet_color/c4.png",
                     "item_name":"test test"
                 }
             ]
@@ -76,19 +76,19 @@ angular.module('myApp',[])
             "category_name":"Floor",
             "item_list":[
                 {
-                    "img_url":"images/floor/f1.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/floor/f1.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/floor/f2.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/floor/f2.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/floor/f3.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/floor/f3.png",
                     "item_name":"test test"
                 },
                 {
-                    "img_url":"images/floor/f4.png",
+                    "img_url":"https://biswajit-rout.github.io/kitchen-designer/images/floor/f4.png",
                     "item_name":"test test"
                 }
             ]
@@ -132,5 +132,5 @@ angular.module('myApp',[])
         return newElem;
     }
     //Create a base image
-    createImageGroup("baseImage","images/base_image/base_1.png");
+    createImageGroup("baseImage","https://biswajit-rout.github.io/kitchen-designer/images/base_image/base_1.png");
 });
