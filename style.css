@@ -1,0 +1,22 @@
+#imageContent{
+    border: 1px solid black;
+    padding: 5px;
+}
+.design_container label{
+    font-weight: bold;
+}
+.design_container img{
+    width: 20%;
+    height: 20%;
+    border: 1px solid #dddddd;
+    padding: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.design_container img:hover{
+    border: 1px solid #474343e5;
+}
+.d-header{
+    font-weight: bold;
+    font-size: 40px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="designController" class="container-fluid">
+    <p class="d-header text-center">Virtual Kitchen Design Tool</p>
+    <div class="row">
+        <div class="col-md-4">
+            <div  class="design_container" ng-repeat="item in designDetails">
+                <label for="">{{item.category_name}}</label>
+                <div>
+                    <img ng-click="getSelectedImage(imgItem,item.category_name)" ng-repeat="imgItem in item.item_list" height="50px" width="50px" ng-src="{{imgItem.img_url}}" alt=""/>
+                </div>
+            </div >
+        </div>
+        <div class="col-md-8 text-center">
+            <svg id="imageContent" xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="700px" height="400px"  id="svgContent" overflow="hidden">
+            </svg>
+        </div>
+    </div>
+    
+</body>
+</html>
